@@ -31,7 +31,7 @@
     "test": "mocha --exit",
     "coverage": "nyc npm run test",
     "husky:install": "husky install",
-    "heroku-postbuild": "cd apps/themes/default_theme_2 && npm install --legacy-per-deps && npm run build"
+    "heroku-postbuild": "cd apps/themes/default_theme_2 && npm install --legacy-peer-deps && npm run build"
   },
   "devDependencies": {
     "chai": "^4.3.7",
